@@ -90,17 +90,6 @@ The MCP server provides these tools to Claude:
 - **`list_channels`** - List all available channels
 - **`search_messages`** - Search for messages across the workspace
 
-## Project Structure
-
-```
-slack-mcp-assistant/
-├── src/
-│   └── index.js       # MCP server implementation
-├── package.json       # Dependencies
-├── .env.example      # Environment template
-├── .gitignore        # Git ignore file
-└── README.md         # This file
-```
 
 ## Privacy & Security
 
@@ -108,35 +97,3 @@ slack-mcp-assistant/
 - Only accesses channels the bot is invited to
 - Respects Slack workspace permissions
 - Never stores messages permanently
-
-## Troubleshooting
-
-**"Channel not found" error**
-- Make sure the bot is invited to the channel
-- Use channel name without the # symbol
-
-**No messages returned**
-- Check if the bot has the required permissions
-- Verify the bot is a member of private channels
-
-**Claude Desktop doesn't see the server**
-- Restart Claude Desktop
-- Check the config file path is correct
-- Look for errors in Claude's DevTools console
-
-## Contributing
-
-Feel free to submit issues and PRs! Some ideas for improvements:
-- Thread summaries
-- Mention tracking
-- Emoji reaction analytics
-- File/document summaries
-- Integration with other MCP tools
-
-## License
-
-MIT
-
----
-
-Built by [nfroze](https://github.com/nfroze) as part of the 100 Projects Challenge
