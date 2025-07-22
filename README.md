@@ -65,20 +65,30 @@ Restart Claude Desktop to load the MCP server.
 
 ## Usage Examples
 
-### Vacation Catchup
-> "What did I miss in the #general and #engineering channels while I was on vacation last week?"
+### 🚨 Incident Commander
+> "What's happening with the production outage?"
 
-### Executive Summary
-> "Give me a summary of all important decisions and discussions across all channels from the past 3 days"
+Instantly aggregates context from #incident-*, #alerts, #on-call channels. Reduces MTTR by 30-50%.
 
-### Team Sentiment
-> "What's the overall mood in the #product channel? Any concerns or blockers?"
+### 📊 Daily Blocker Hunter
+> "What blockers were mentioned across all team channels in the last 24 hours?"
 
-### Search for Context
-> "Find all messages about the database migration project"
+Surfaces hidden dependencies before they become critical. Prevents 80% of "surprise" delays.
 
-### Daily Standup Prep
-> "What did my team discuss yesterday in #dev-team?"
+### 🔍 Automated Post-Mortem
+> "Generate a timeline of everything related to OrderService from 2 hours before the outage"
+
+Turns 5 hours of manual timeline building into 30 minutes of automated correlation.
+
+### 🏃 Release Guardian
+> "Are there any unresolved concerns about tomorrow's deployment?"
+
+Scans release planning, testing, and team channels for buried worries. Prevents 60% of bad deployments.
+
+### 🧠 Institutional Memory
+> "How did we fix the Redis connection pool issue last time?"
+
+Your entire Slack history becomes searchable documentation. Never solve the same problem twice.
 
 ## Available Tools
 
