@@ -1,4 +1,4 @@
-# 🤖 Project 8 - Slack MCP Assistant
+# 🤖 Project 8: Slack MCP Assistant
 
 An MCP (Model Context Protocol) server that connects Claude Desktop to your Slack workspace, enabling intelligent message summaries and insights.
 
