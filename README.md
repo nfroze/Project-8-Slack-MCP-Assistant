@@ -18,13 +18,11 @@ This MCP server lets Claude:
 1. Go to [api.slack.com/apps](https://api.slack.com/apps)
 2. Click "Create New App" → "From scratch"
 3. Name it "Slack MCP Assistant" and select your workspace
-4. Go to "OAuth & Permissions" and add these scopes:
+4. Go to "OAuth & Permissions" and add these Bot Token Scopes:
    - `channels:history` - Read public channel messages
-   - `channels:read` - List channels
-   - `groups:history` - Read private channel messages
-   - `groups:read` - List private channels
-   - `search:read` - Search messages
-   - `users:read` - Get user info
+   - `channels:read` - List public channels
+   - `users:read` - Get user info for better message formatting
+   - `chat:write` - (Optional) For future features
 5. Install the app to your workspace
 6. Copy the "Bot User OAuth Token" (starts with `xoxb-`)
 
