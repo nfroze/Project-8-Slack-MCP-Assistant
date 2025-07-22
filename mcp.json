@@ -1,0 +1,32 @@
+{
+  "name": "slack-mcp-assistant",
+  "version": "1.0.0",
+  "description": "Connect Claude to Slack for intelligent message summaries",
+  "author": "nfroze",
+  "license": "MIT",
+  "tools": [
+    {
+      "name": "get_channel_messages",
+      "description": "Get messages from a Slack channel with optional time filtering"
+    },
+    {
+      "name": "list_channels", 
+      "description": "List all channels in the Slack workspace"
+    },
+    {
+      "name": "search_messages",
+      "description": "Search for messages across the Slack workspace"
+    }
+  ],
+  "requirements": {
+    "node": ">=18.0.0"
+  },
+  "configuration": {
+    "env": {
+      "SLACK_BOT_TOKEN": {
+        "description": "Slack Bot User OAuth Token (starts with xoxb-)",
+        "required": true
+      }
+    }
+  }
+}

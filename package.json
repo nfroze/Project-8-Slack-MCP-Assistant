@@ -1,0 +1,28 @@
+{
+  "name": "slack-mcp-assistant",
+  "version": "1.0.0",
+  "description": "MCP server that connects Claude Desktop to Slack for intelligent message summaries",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "slack",
+    "claude",
+    "ai",
+    "assistant"
+  ],
+  "author": "nfroze",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.6.0",
+    "@slack/web-api": "^7.0.2",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
