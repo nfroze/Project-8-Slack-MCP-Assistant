@@ -68,27 +68,27 @@ Restart Claude Desktop to load the MCP server.
 ### 🚨 Incident Commander
 > "What's happening with the production outage?"
 
-Instantly aggregates context from #incident-*, #alerts, #on-call channels. Reduces MTTR by 30-50%.
+Instantly aggregates context from #incident-*, #alerts, #on-call channels for faster incident response.
 
 ### 📊 Daily Blocker Hunter
 > "What blockers were mentioned across all team channels in the last 24 hours?"
 
-Surfaces hidden dependencies before they become critical. Prevents 80% of "surprise" delays.
+Surfaces hidden dependencies before they become critical path issues.
 
 ### 🔍 Automated Post-Mortem
 > "Generate a timeline of everything related to OrderService from 2 hours before the outage"
 
-Turns 5 hours of manual timeline building into 30 minutes of automated correlation.
+Automatically correlates messages across channels to build incident timelines.
 
 ### 🏃 Release Guardian
 > "Are there any unresolved concerns about tomorrow's deployment?"
 
-Scans release planning, testing, and team channels for buried worries. Prevents 60% of bad deployments.
+Scans release planning, testing, and team channels for potential deployment risks.
 
 ### 🧠 Institutional Memory
 > "How did we fix the Redis connection pool issue last time?"
 
-Your entire Slack history becomes searchable documentation. Never solve the same problem twice.
+Your entire Slack history becomes searchable documentation.
 
 ## Available Tools
 
@@ -97,7 +97,6 @@ The MCP server provides these tools to Claude:
 - **`get_channel_messages`** - Retrieve messages from a specific channel
 - **`list_channels`** - List all available channels
 - **`search_messages`** - Search for messages across the workspace
-
 
 ## Privacy & Security
 
